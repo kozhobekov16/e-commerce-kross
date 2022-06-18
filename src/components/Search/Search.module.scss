@@ -1,0 +1,20 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+        padding: 10px 25px;
+        font-size: 16px;
+        border: 2px solid #C4C4C4;
+        border-radius: 10px;
+        // border: none;
+        outline: none;
+        width: 320px;
+        transition: .4s;
+        &:focus{
+            width: 350px;
+            transition: .4s;
+        }
+    }
+}
